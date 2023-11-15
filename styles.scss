@@ -46,17 +46,17 @@ html {
     }
   }
   .schedule-hero {
+    width: 70%;
     font-size: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    margin-bottom: 30px;
   }
 
   .hero-img-container {
     height: auto;
     > img {
-      margin-top: 40px;
       height: 300px;
     }
   }

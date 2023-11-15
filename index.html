@@ -5,24 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cloudops</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <script src="script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
   </head>
   <body>
     <div class="hero">
       <div class="nav">
         <div class="about"><p>About</p></div>
-        <div class="nav-logo"><img src="assets/nav-logo.png" alt="" /></div>
+        <div class="nav-logo">
+          <img src="assets/nav-logo.png" alt="" />
+        </div>
         <div class="contact"><p>Contact</p></div>
       </div>
-      <div class="title-hero"><p>Hackathón UX</p></div>
+      <div class="title-hero">
+        <p class="title-text">H</p>
+        <p class="title-text">a</p>
+        <p class="title-text">c</p>
+        <p class="title-text">k</p>
+        <p class="title-text">a</p>
+        <p class="title-text">t</p>
+        <p class="title-text">h</p>
+        <p class="title-text">ó</p>
+        <p class="title-text">n</p>
+        <p class="title-text">&nbsp;</p>
+        <p class="title-text">U</p>
+        <p class="title-text">X</p>
+      </div>
       <div class="schedule-hero">
         <div class="date-div-hero"><p>15 July</p></div>
         <div class="time-div-hero"><p>19:00 hs</p></div>
         <div class="place-div-hero"><p>Delhi</p></div>
       </div>
-      <div class="hero-img-container">
-        <img src="assets/hero-img.png" alt="" />
+      <div class="hero-img-container" data-tilt data-tilt-full-page-listening>
+        <img src="assets/hero-img.png" alt="hero-img" />
       </div>
     </div>
+    <script src="script.js"></script>
+    <script src="vanilla-tilt.js"></script>
   </body>
 </html>
